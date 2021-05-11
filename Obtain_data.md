@@ -23,7 +23,7 @@ Re-annotate the genomes using PROKKA 1.13
 
 ```bash
 
-mkdir PROKKA
+mkdir PROKKA #Create a new directory that will contain the files created by PROKKA
 
 for genome in ./genome_FASTA/*.fna; do #Iterate over the downloaded fasta files
 	fileID=$(basename "$genome" | cut -d '.' -f 1) #Define the genome ID based on the filename
