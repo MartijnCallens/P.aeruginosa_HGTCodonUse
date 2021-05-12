@@ -54,3 +54,18 @@ for accession in ./PROKKA/*; do #Iterate over all accessions
 done
 
 ```
+## Annotate tRNA genes
+
+Requirements: tRNAscan-SE 2.0.5
+
+```bash
+
+mkdir tRNA/tRNAscan_results -p
+
+for strain in ./genome_FASTA/GCF*; do
+    fileName=$(basename $strain | cut -d "." -f 1)
+    echo $fileName
+    tRNAscan-SE -B -o ./tRNA/tRNAscan_results/$fileName $strain
+done
+
+```
