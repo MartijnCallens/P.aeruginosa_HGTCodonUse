@@ -4,7 +4,7 @@
 
 Download the 94 genome files of the *Pseudomonas aeruginosa* strains on which the analysis is based from NCBI RefSeq
 
-The list of RefSeq accessions used as input for the script to download the files is the RefSeq_accession.txt file
+The list of RefSeq accessions used as input for the script to download the files is the "RefSeq_accession.txt" file
 
 Requirements: NCBI EDirect (entrez-direct 13.9)
 
