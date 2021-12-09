@@ -2,7 +2,7 @@
 
 If you have specific questions, please contact me on my correspondance address at Ghent University.
 
-The code in this repository can be used to perform the bioinformatics pipeline to infer horizontal gene transfers in a set of full genome sequences from multiple strains of a bacterial species. The general outline is presented in the figure below.
+The code in this repository was used to perform the bioinformatics pipeline to infer horizontal gene transfers in a set of full genome sequences from multiple strains of a bacterial species. The general outline is presented in the figure below.
 
 These files contain the code for specific parts of the analysis:
 * Obtain_data.md: get the genome data to run the analysis
