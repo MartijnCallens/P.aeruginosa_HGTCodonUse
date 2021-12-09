@@ -1,6 +1,6 @@
 # Scripts for the data analysis performed in [“Evolutionary responses to codon usage of horizontally transferred genes in *Pseudomonas aeruginosa*: gene retention, amelioration and compensatory evolution”](https://doi.org/10.1099/mgen.0.000587)
 
-If you have specific questions, please contact me on the correspondance address mentioned in the paper.
+If you have specific questions, please contact me on my correspondance address at Ghent University.
 
 The code in this repository can be used to perform the bioinformatics pipeline to infer horizontal gene transfers in a set of full genome sequences from multiple strains of a bacterial species. The general outline is presented in the figure below.
 
